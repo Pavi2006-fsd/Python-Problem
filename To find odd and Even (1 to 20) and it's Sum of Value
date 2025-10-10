@@ -1,0 +1,24 @@
+a=1
+asum=0
+acount=0
+ecount=0
+esum=0
+while(a<=20):
+    if(a%2==0):
+        esum=esum+a
+        acount+=1
+
+    else:
+        ecount+=1
+        asum=asum+a
+    a+=1
+print("even number:",ecount)
+print("Odd number:",acount)
+print("Even sum:",esum)
+print("Odd sum:",asum)
+
+//Output
+even number: 10
+Odd number: 10
+Even sum: 110
+Odd sum: 100
