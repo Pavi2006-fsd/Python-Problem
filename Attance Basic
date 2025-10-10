@@ -1,0 +1,16 @@
+student=[]
+def addence(id):
+    if id not in student:
+        student.append(id)
+def present(id):
+    return id in student
+def show():
+    for i in student:
+        print(i)
+addence(101)
+addence(102)
+addence(103)
+print("Student Addence  : ")
+show()
+print("The Student 103 is Present : ",present(103))
+print("The Student 104 is Present : ",present(104))
