@@ -1,0 +1,23 @@
+student=[]
+def addence(id):
+    if id not in student:
+        student.append(id)
+def present(id):
+    return id in student
+def display():
+    for i in student:
+        print(i)
+a=1
+while a!=0:
+    a=int(input("enter 1 for mark addence 2 for display present student 3 check student is present or 0 for exist not"))
+    if a==1:
+        id=int(input("enter roll no "))
+        addence(id)
+    elif a==2:
+        display()
+    elif a==3:
+        id=int(input("enter roll no "))
+        if present(id):
+            print("yes student is present")
+        else:
+            print("sorry not.")
