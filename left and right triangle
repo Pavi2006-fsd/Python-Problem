@@ -1,0 +1,26 @@
+//left and right triangle
+s=8
+for i in range(5):
+    for j in range (s):
+        print(" ",end=" ")
+    for k in range(i):
+        print(" * ", end=" ")
+    print()
+    s=s-2
+for i in range(5):
+    for j in range (s):
+        print("",end=" ")
+    for k in range(i):
+        print(" * ", end=" ")
+    print()
+//Output
+             
+             *  
+         *   *  
+     *   *   *  
+ *   *   *   *  
+
+ *  
+ *   *  
+ *   *   *  
+ *   *   *  *
